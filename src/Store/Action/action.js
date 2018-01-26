@@ -1,7 +1,21 @@
+// import React, { Component } from 'react';
+
 // import ActionTypes from '../constant/constant';
 
-// export function addAction(recpUID) {
-//     return dispatch => {
-//         dispatch({type: ActionTypes.CHANGERECPUID, payload:recpUID})
-//     }
-// }
+export default class ActionTypes {
+    // static INCREMENT='INCREMENT';
+    // static DECREMENT='DECREMENT';
+    // static ADD='ADD';
+    static USERNAME = "USERNAME";
+   
+    
+    
+    static changeName() {
+        return {
+            type: "USERNAME", 
+            payload:'new'
+        };
+        
+    }
+} 
+    // export default ActionTypes;
